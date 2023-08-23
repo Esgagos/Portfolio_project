@@ -1,0 +1,9 @@
+/* font-family: 'Foldit', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Public Sans', sans-serif; */
+h1 {
+  color: blue;
+  font-family: Playfair Display;
+  font-weight: bold;
+}
