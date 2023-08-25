@@ -2,8 +2,30 @@
 font-family: 'Playfair Display', serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Public Sans', sans-serif; */
+:root {
+  --hedding-font: "Playfair Display", serif;
+  --secundary-font: "Poppins", sans-serif;
+}
+
 h1 {
-  color: blue;
-  font-family: Playfair Display;
-  font-weight: bold;
+  font-family: var(--hedding-font);
+}
+h2 {
+  font-family: var(--secundary-font);
+  color: #272142;
+  font-size: 1vw;
+}
+p {
+  font-family: var(--secundary-font);
+  color: #272142;
+}
+.hero-container {
+  background-color: #f9f7fe;
+  text-align: center;
+  padding: 12rem 25rem;
+}
+.hero-button {
+  background-color: #6c63ff;
+  border-radius: 4px;
+  color: #ffffff;
 }
