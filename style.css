@@ -5,6 +5,7 @@ font-family: 'Public Sans', sans-serif; */
 :root {
   --hedding-font: "Playfair Display", serif;
   --secundary-font: "Poppins", sans-serif;
+  --button-color: #6c63ff;
 }
 
 h1 {
@@ -13,11 +14,12 @@ h1 {
 h2 {
   font-family: var(--secundary-font);
   color: #272142;
-  font-size: 1vw;
+  font-size: 1.5vw;
 }
 p {
   font-family: var(--secundary-font);
   color: #272142;
+  line-height: 1.7;
 }
 .hero-container {
   background-color: #f9f7fe;
@@ -25,7 +27,52 @@ p {
   padding: 12rem 25rem;
 }
 .hero-button {
-  background-color: #6c63ff;
+  background-color: var(--button-color);
   border-radius: 4px;
   color: #ffffff;
+}
+.project-name {
+  font-family: var(--hedding-font);
+  line-height: 85.31px;
+  font-weight: 700;
+  font-size: 2em;
+  padding-top: 2vw;
+}
+.projects-index-presentation {
+  text-align: center;
+  margin-top: 2vw;
+}
+.view-project-button {
+  color: rgba(136, 93, 241, 1);
+  border-color: rgba(136, 93, 241, 1);
+  padding: 10px;
+  border-radius: 0;
+}
+.view-project-button:hover {
+  background-color: rgba(136, 93, 241, 1);
+  color: #ffffff;
+}
+.flamenco-image {
+  max-width: 63%;
+  margin: 2vw 9vw;
+  border-radius: 4px;
+}
+.trekking-image {
+  max-width: 96%;
+  margin: 3vw -1vw;
+}
+.project-name-trekking {
+  padding-top: 4vw;
+  line-height: 2;
+  font-family: var(--hedding-font);
+}
+.weather-image {
+  max-width: 95%;
+  margin: 4vw -1vw;
+  border-radius: 2px;
+}
+.world-clock-image {
+  max-width: 82%;
+  margin: 3vw 4vw;
+  border-radius: 2px;
 }
