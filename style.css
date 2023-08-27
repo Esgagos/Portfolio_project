@@ -19,7 +19,8 @@ h2 {
 p {
   font-family: var(--secundary-font);
   color: #272142;
-  line-height: 1.7;
+  line-height: 30px;
+  opacity: 70%;
 }
 .hero-container {
   background-color: #f9f7fe;
@@ -36,11 +37,13 @@ p {
   line-height: 85.31px;
   font-weight: 700;
   font-size: 2em;
-  padding-top: 2vw;
+  padding-top: 3vw;
 }
 .projects-index-presentation {
   text-align: center;
   margin-top: 2vw;
+  margin-bottom: 3vw;
+  opacity: 100%;
 }
 .view-project-button {
   color: rgba(136, 93, 241, 1);
@@ -59,20 +62,39 @@ p {
 }
 .trekking-image {
   max-width: 96%;
-  margin: 3vw -1vw;
+  min-height: 363px;
+  margin: 3vw 1vw;
+  padding: 1px;
+  background: #e8dede;
+  border-radius: 4px;
 }
 .project-name-trekking {
-  padding-top: 4vw;
-  line-height: 2;
+  line-height: 85.31px;
+  font-weight: 700;
+  font-size: 2em;
+  padding-top: 3vw;
   font-family: var(--hedding-font);
 }
 .weather-image {
   max-width: 95%;
+  min-height: 342px;
+  height: 17vw;
   margin: 4vw -1vw;
   border-radius: 2px;
 }
 .world-clock-image {
   max-width: 82%;
-  margin: 3vw 4vw;
+  margin: 3vw 2vw;
   border-radius: 2px;
+}
+@media (max-width: 992px) {
+  body {
+    text-align: center;
+  }
+  .hero-container {
+    padding: 7rem 3rem;
+  }
+  .project-name {
+    padding-top: 0vw;
+  }
 }
