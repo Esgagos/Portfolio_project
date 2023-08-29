@@ -16,6 +16,21 @@ h2 {
   color: #272142;
   font-size: 1.5vw;
 }
+.about-h2 {
+  margin-bottom: 1vw;
+  font-family: var(--hedding-font);
+  color: #272142;
+  font-size: 3vw;
+}
+.about-secondary-h2 {
+  margin-bottom: 1.5vw;
+  font-size: 1vw;
+  font-family: var(--secundary-font);
+  font-weight: bold;
+  color: #272142;
+  line-height: 30px;
+  opacity: 100%;
+}
 p {
   font-family: var(--secundary-font);
   color: #272142;
@@ -41,8 +56,8 @@ p {
 }
 .projects-index-presentation {
   text-align: center;
-  margin-top: 2vw;
-  margin-bottom: 3vw;
+  margin-top: 6vw;
+  margin-bottom: 0vw;
   opacity: 100%;
 }
 .view-project-button {
@@ -87,14 +102,53 @@ p {
   margin: 3vw 2vw;
   border-radius: 2px;
 }
+.esperanza-picture {
+  max-width: 30%;
+  border-radius: 10%;
+  margin: 1vw 2vw;
+}
+.about-hero {
+  margin-top: 4vw;
+  padding: 2vw;
+  line-height: 3.5;
+}
+.about-presentation {
+  margin: 5% 20%;
+}
+
 @media (max-width: 992px) {
   body {
     text-align: center;
+  }
+  h2 {
+    font-size: 4vw;
   }
   .hero-container {
     padding: 7rem 3rem;
   }
   .project-name {
     padding-top: 0vw;
+  }
+  .projects-index-presentation {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  .about-presentation {
+    margin: 0 auto;
+    padding: 13%;
+  }
+  .esperanza-picture {
+    margin: 0 auto;
+    max-width: 88%;
+  }
+  .about-h2 {
+    font-size: 8vw;
+  }
+  .about-secondary-h2 {
+    font-size: 4vw;
+    margin-bottom: 5.5vw;
+    margin-top: 4vw;
+    line-height: 4vw;
   }
 }
