@@ -16,12 +16,61 @@ h2 {
   color: #272142;
   font-size: 1.5vw;
 }
+h3 {
+  font-family: var(--secundary-font);
+}
+a {
+  font-family: var(--secundary-font);
+}
+nav {
+  margin: 1vw;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  padding: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  font-family: var(--hedding-font);
+}
+nav a {
+  padding-right: 15px;
+  text-decoration: none;
+  color: #272142;
+}
+.navbar-container {
+  margin-right: 2vw;
+}
+.logo-name {
+  font-family: var(--hedding-font);
+  font-size: 1.5em;
+  padding-left: 3vw;
+}
 .about-h2 {
   margin-bottom: 1vw;
   font-family: var(--hedding-font);
   color: #272142;
   font-size: 3vw;
 }
+
+.work-body {
+  margin: 1.5rem 0rem;
+}
+
+.work-title-container {
+  max-width: 80vw;
+  margin-left: 15vw;
+  padding: 6rem 0 4rem;
+}
+
+.work-title {
+  font-family: var(--hedding-font);
+  color: #272142;
+  font-size: 3vw;
+}
+
 .about-secondary-h2 {
   margin-bottom: 1.5vw;
   font-size: 1vw;
@@ -40,7 +89,7 @@ p {
 .hero-container {
   background-color: #f9f7fe;
   text-align: center;
-  padding: 12rem 25rem;
+  padding: 12rem 22rem;
 }
 .hero-button {
   background-color: var(--button-color);
@@ -59,6 +108,7 @@ p {
   margin-top: 6vw;
   margin-bottom: 0vw;
   opacity: 100%;
+  font-size: 1.3em;
 }
 .view-project-button {
   color: rgba(136, 93, 241, 1);
@@ -82,6 +132,59 @@ p {
   padding: 1px;
   background: #e8dede;
   border-radius: 4px;
+}
+.work-img-container {
+  max-width: 100%;
+  margin-bottom: 7rem;
+}
+.work-flamenco-image {
+  margin-right: 3vw;
+  width: 23%;
+  margin-left: 15vw;
+}
+
+.work-trekking-image {
+  margin-right: 10vw;
+  max-width: 44%;
+  margin-bottom: 1rem;
+  margin-left: 5vw;
+}
+.work-weather-image {
+  width: 45%;
+  margin-left: 15vw;
+  margin-top: 4rem;
+}
+.work-world-clock-image {
+  width: 29%;
+  margin-top: 4rem;
+  margin-right: 11vw;
+}
+.work-project-description-flamenco {
+  text-align: center;
+}
+.work-project-description-trekking {
+  padding-left: 12vw;
+}
+.work-project-description-weather {
+  margin-left: 19vw;
+  margin-right: -21vw;
+}
+.work-project-description-world-clock {
+  padding-left: 16vw;
+}
+
+.work-description-h2 {
+  font-family: var(--hedding-font);
+  line-height: 23.31px;
+  font-weight: 700;
+  font-size: 2em;
+  padding-top: 1vw;
+}
+.work-description-p {
+  font-family: var(--secundary-font);
+}
+.contact-details {
+  margin-left: 16vw;
 }
 .project-name-trekking {
   line-height: 85.31px;
@@ -115,13 +218,70 @@ p {
 .about-presentation {
   margin: 5% 20%;
 }
+.work-inquire-content {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f9f7fe;
+  border-radius: 4px;
+}
+.container-work-inquire {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+.work-inquire-title {
+  font-family: var(--hedding-font);
+  font-size: 2em;
+  line-height: 1.5;
+}
+.work-inquire-message {
+  font-family: var(--secundary-font);
+  font-size: 0.5em;
+}
+footer {
+  margin-top: 6rem;
+}
+.footer-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-links {
+  background-color: #f9f7fe;
+  padding: 16px 19px;
+  border-radius: 50%;
+  margin-right: 1em;
+  transition: all 100ms ease-in-out;
+}
+.footer-links:hover {
+  background-color: var(--button-color);
+  color: #f9f7fe;
+}
+.footer-email {
+  text-decoration: none;
+  color: #272142;
+  margin-bottom: 2rem;
+  font-size: 1.5em;
+}
 
 @media (max-width: 992px) {
+  .logo-name {
+    display: none;
+  }
+  nav {
+    justify-content: center;
+  }
+  nav a {
+    padding-right: 6vw;
+  }
+  .navbar-container {
+    margin-right: 0;
+  }
   body {
     text-align: center;
   }
   h2 {
-    font-size: 4vw;
+    font-size: 1.5em;
+    margin-left: -7vw;
   }
   .hero-container {
     padding: 7rem 3rem;
@@ -133,7 +293,49 @@ p {
     display: none;
   }
 }
+
+.my-row {
+  justify-content: center;
+  display: flex;
+}
+.my-row.text-row {
+  padding-top: 1rem;
+  padding-bottom: 4rem;
+}
+.my-row .centered {
+  width: 80vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+.work-content-narrow {
+  width: 30%;
+}
+
+.work-content-wide {
+  width: 60%;
+}
+
+.my-row img {
+  width: 100%;
+}
+
+.content-block {
+  padding-bottom: 3rem;
+}
+
 @media (max-width: 992px) {
+  .my-row .centered {
+    flex-direction: column;
+    align-items: center;
+  }
+  .work-content-narrow {
+    width: 100%;
+  }
+  .work-content-wide {
+    width: 100%;
+  }
+
   .about-presentation {
     margin: 0 auto;
     padding: 13%;
@@ -144,11 +346,25 @@ p {
   }
   .about-h2 {
     font-size: 8vw;
+    padding-bottom: 0.8em;
   }
   .about-secondary-h2 {
     font-size: 4vw;
     margin-bottom: 5.5vw;
     margin-top: 4vw;
     line-height: 4vw;
+  }
+  .work-title-container {
+    padding: 3rem 0;
+    font-size: 1.3em;
+  }
+  .work-description-h2 {
+    font-size: 1.5rem;
+  }
+  .contact-details {
+    margin: 0 auto;
+  }
+  .work-title {
+    font-size: 1.5em;
   }
 }
