@@ -12,12 +12,12 @@ h1 {
   font-family: var(--hedding-font);
 }
 h1.name-title {
-  font-size: 4em;
+  font-size: 6em;
 }
 h2 {
   font-family: var(--secundary-font);
   color: #272142;
-  font-size: 1.5vw;
+  font-size: 2vw;
 }
 h3 {
   font-family: var(--secundary-font);
@@ -49,12 +49,16 @@ nav a {
   padding-right: 15px;
   text-decoration: none;
   color: #272142;
+  font-size: 1.5em;
+}
+.title-job {
+  font-size: 1.35em;
 }
 .navbar-container {
   margin-right: 2vw;
 }
 .logo-name {
-  font-family: var(--hedding-font);
+  /* font-family: var(--hedding-font); */
   font-size: 1.5em;
   padding-left: 3vw;
 }
@@ -109,6 +113,8 @@ p {
   background-color: var(--button-color);
   border-radius: 4px;
   color: #ffffff;
+  font-size: 1.3em;
+  padding: 12px 2em;
 }
 .project-name {
   font-family: var(--hedding-font);
