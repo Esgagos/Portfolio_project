@@ -141,8 +141,8 @@ p {
   color: #ffffff;
 }
 .flamenco-image {
-  max-width: 63%;
-  margin: 2vw 9vw;
+  max-width: 67%;
+  margin: 2vw 0vw;
   border-radius: 4px;
 }
 .trekking-image {
@@ -215,9 +215,9 @@ p {
 }
 .weather-image {
   max-width: 95%;
-  min-height: 342px;
-  height: 17vw;
-  margin: 4vw -1vw;
+  min-height: 363px;
+  height: 23vw;
+  margin: 4vw 2vw;
   border-radius: 2px;
 }
 .world-clock-image {
