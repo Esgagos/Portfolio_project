@@ -51,6 +51,10 @@ nav a {
   color: #272142;
   font-size: 1.5em;
 }
+footer em {
+  color: rgb(201 148 1);
+  font-weight: 500;
+}
 .title-job {
   font-size: 1.35em;
 }
@@ -58,7 +62,6 @@ nav a {
   margin-right: 2vw;
 }
 .logo-name {
-  /* font-family: var(--hedding-font); */
   font-size: 1.5em;
   padding-left: 3vw;
 }
@@ -125,10 +128,12 @@ p {
 }
 .projects-index-presentation {
   text-align: center;
-  margin-top: 6vw;
-  margin-bottom: 0vw;
+  /* margin-top: 6vw;
+  margin-bottom: 0vw; */
   opacity: 100%;
-  font-size: 1.3em;
+  background-color: #f9f7fe;
+  padding: 25px;
+  font-size: 3.6em;
 }
 .view-project-button {
   color: rgba(136, 93, 241, 1);
@@ -281,6 +286,9 @@ footer {
   color: #272142;
   margin-bottom: 2rem;
   font-size: 1.5em;
+}
+.project-container {
+  margin-top: 3.8vw;
 }
 
 @media (max-width: 992px) {

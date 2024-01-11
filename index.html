@@ -41,10 +41,10 @@
             <a href="/index.html" title="Homepage">Home</a>
           </li>
           <li>
-            <a href="/about.html" title="About Esperanza Tyldesley">About</a>
+            <a href="#heroContainer" title="About Esperanza Tyldesley">About</a>
           </li>
           <li>
-            <a href="/work.html" title="Esperanza Tyldesley's work">Work</a>
+            <a href="#myProjects" title="Esperanza Tyldesley's work">Projects</a>
           </li>
           <li>
             <a href="/contact.html" title="Esperanza Tyldesley's contact"
@@ -54,7 +54,7 @@
         </ul>
       </nav>
     </div>
-    <div class="hero-container">
+    <div class="hero-container" id="heroContainer">
       <h2>👋 Hi I'm</h2>
       <h1 class="mb-4 name-title">Esperanza Tyldesley</h1>
       <p class="title-job">Junior Front-end developer, based in the UK</p>
@@ -74,7 +74,7 @@
       <div class="row">
         <div class="about-hero col-lg-6">
           <h2 class="about-h2">I'm Esperanza Tyldesley</h2>
-          <p class="about-secondary-h2">Front-end developer based in the UK</p>
+          <p class="about-secondary-h2">Junior Front-end developer based in the UK</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
             distinctio placeat hic fuga, deserunt ut, neque itaque perspiciatis
@@ -92,28 +92,13 @@
         />
       </div>
     </div>
-    <div class="container-work-inquire d-md-block d-none mt-5 mb-5">
-        <div class="work-inquire-content pt-4 pb-4">
-          <div class="work-inquire-title">
-            Work Inquiry
-            <p class="work-inquire-message">Let's work together</p>
-          </div>
-          <div>
-            <a
-              href="/contact.html"
-              class="btn shadow hero-button mt-4 pt-2 pb-2"
-              title="Esperanza Tyldesley's contact details"
-              >contact me</a
-            >
-          </div>
-        </div>
-      </div>
+    
 
 
-    <p class="projects-index-presentation">
-      Lorem ipsum dolor sit amet consectetur, adipisicing
-    </p>
-    <div class="container">
+    <h1 class="projects-index-presentation" id="myProjects">
+      My Projects
+    </h1>
+    <div class="container project-container">
       <div class="row">
         <div class="col d-none d-lg-block">
           <img
@@ -140,10 +125,10 @@
       </div>
     </div>
 
-    <p class="projects-index-presentation">
-      Lorem ipsum dolor sit amet consectetur, adipisicing
-    </p>
-    <div class="container">
+    <!-- <p class="projects-index-presentation">
+      
+    </p> -->
+    <div class="container project-container">
       <div class="row">
         <div class="col">
           <h2 class="project-name-trekking mt-4 mb-4">Weather-App Project</h2>
@@ -170,10 +155,10 @@
       </div>
     </div>
 
-    <p class="projects-index-presentation">
-      Lorem ipsum dolor sit amet consectetur, adipisicing
-    </p>
-    <div class="container">
+    <!-- <p class="projects-index-presentation">
+     
+    </p> -->
+    <div class="container project-container">
       <div class="row">
         <div class="col-6 d-none d-lg-block">
           <img
@@ -200,10 +185,10 @@
       </div>
     </div>
 
-    <p class="projects-index-presentation">
-      Lorem ipsum dolor sit amet consectetur, adipisicing
-    </p>
-    <div class="container">
+    <!-- <p class="projects-index-presentation">
+     
+    </p> -->
+    <div class="container project-container">
       <div class="row">
         <div class="col">
           <h2 class="project-name mt-4 mb-4">World Clock Project</h2>
@@ -232,7 +217,7 @@
         <div class="work-inquire-content pt-4 pb-4">
           <div class="work-inquire-title">
             Work Inquiry
-            <p class="work-inquire-message">Let's work together</p>
+            <p class="work-inquire-message">Let's work together!</p>
           </div>
           <div>
             <a
@@ -244,40 +229,6 @@
           </div>
         </div>
       </div>
-
-      <div class="navbar-container">
-
-    </div>
-    <div class="work-title-container">
-      <h2 class="work-title">Let's get in touch!</h2>
-    </div>
-    <div class="contact-details">
-      <h3>Email</h3>
-      <a href="mailto:espetyl@gmail.com" title="Esperanza Tyldesley's email address">espetyl@gmail.com</a>
-      <h3 class="mt-4">Twitter</h3>
-      <a href="https://twitter.com/?lang=en" title="twitter link">@esperanza</a>
-      <h3 class="mt-4">Linkdin</h3>
-      <a href="https://www.linkedin.com/in/esperanza-tyldesley-9aa28862" title="Esperanza Tyldesley's linkedin link"
-        >www.linkedin.com/in/esperanza-tyldesley-9aa28862</a
-      >
-    </div>
-    <div class="container-work-inquire d-md-block d-none mt-5 mb-5">
-        <div class="work-inquire-content pt-4 pb-4">
-          <div class="work-inquire-title">
-            Work Inquiry
-            <p class="work-inquire-message">Let's work together</p>
-          </div>
-          <div>
-            <a
-              href="/contact.html"
-              class="btn shadow hero-button mt-4 pt-2 pb-2"
-              title="Esperanza Tyldesley's contact details"
-              >contact me</a
-            >
-          </div>
-        </div>
-      </div>
-
 
       <footer class="mb-5">
         <div class="footer-flex">
@@ -291,12 +242,7 @@
               target="_blank"
               ><i class="fa-brands fa-github"></i
             ></a>
-            <a
-              href="https://twitter.com/?lang=en"
-              class="footer-links"
-              target="_blank"
-              ><i class="fa-brands fa-twitter"></i
-            ></a>
+          
             <a
               href="https://www.linkedin.com/in/esperanza-tyldesley-9aa28862"
               class="footer-links"
@@ -305,7 +251,7 @@
             ></a>
           </div>
           <p class="text-center mt-5">
-            🤩 This project was coded by Esperanza Tyldesley, and it's
+            🤩 This project was coded by <em>Esperanza Tyldesley</em>, and it's
             <a
               href="https://github.com/Esgagos"
               title="Esperaza Ttyldeslet GitHub link"
