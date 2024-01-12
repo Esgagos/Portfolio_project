@@ -138,8 +138,8 @@ p {
 .view-project-button {
   color: rgba(136, 93, 241, 1);
   border-color: rgba(136, 93, 241, 1);
-  padding: 10px;
-  border-radius: 0;
+  padding: 10px 15px;
+  border-radius: 4px;
 }
 .view-project-button:hover {
   background-color: rgba(136, 93, 241, 1);
